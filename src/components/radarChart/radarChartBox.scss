@@ -1,0 +1,11 @@
+.radarChart{
+    width: calc(35% - 10px);
+    height: 100%;
+
+}
+
+@media screen and (max-width: 1000px){
+    .radarChart{
+        width: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+.hour-rain{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    
+    h3{
+        margin-top: 5px;
+    }
+    .recharts-responsive-container{
+    
+        transform: rotate(90deg);
+        margin-top: -5rem;
+        margin-left: 1.5rem;
+
+        .recharts-cartesian-axis-line{
+            display: none;
+        }
+        .recharts-cartesian-axis-tick{
+            padding: 2px;
+        }
+        .recharts-cartesian-axis-tick-line{
+            display: none;
+        }
+    
+    }
+
+    .percentage{
+        position: absolute;
+        width: 30px;
+        top: 15%;
+        right: -5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 580px){
+    .hour-rain{
+
+        .recharts-responsive-container{
+            margin-left: 25%;
+        }
+
+        .percentage{
+            right: -6.5rem;
+        }
+    }
+}
